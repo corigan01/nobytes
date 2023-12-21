@@ -1,0 +1,16 @@
+[package]
+name = "nobytes"
+version = "0.1.0"
+edition = "2021"
+authors = ["Gavin <corigan01@gmail.com>"]
+description = "no-std no-alloc byte printer"
+categories = ["embedded", "no-std"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[lints.rust]
+unsafe_code = "forbid"
